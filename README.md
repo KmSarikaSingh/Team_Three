@@ -351,8 +351,10 @@ SearchBtn.addEventListener("click" , async ()=>{
 
 
 fetchFunction();
+
 ```
 
+```
 const details = document.getElementById('details')
 const main_Container = document.getElementById("mainCharector")
 const story_Linemain = document.getElementById("story")
