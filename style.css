@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(13, 37, 63);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ .heading{
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    margin-left: 4rem;
+    color: rgba(1, 180, 228);
+    font-family: 'Poppins', sans-serif;  
+}
+  span{
+    color: rgba(144, 206, 161);
+}
+
+.link button{
+    padding: 1rem 1rem;
+    margin-right: 3rem;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgba(13, 37, 63);
+    color: rgba(1, 180, 228);
+    border: none;
+}
+
+.link button:hover{
+    background-color: white;
+}
+
+
+.Img{
+    margin-top: 1.2rem;
+    margin-right: 1.2rem;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    float: right;
+   
+}
+.first{
+    height: 40vh;
+}
+.searchBox{
+    width: 100%;
+    margin-top: 3rem;
+}
+.main_Container{
+    width: 80%;
+    margin: 0 auto;
+}
+.main_Container h1{
+    
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100%;
+    
+}
+.main_Container .SearchBar{
+    width: 80%;
+    padding: 1rem 2rem;
+    border: none;
+    margin-top: 0.9rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.main_Container .SearchBar:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.Search_Btn{
+    padding: 1rem 1.4rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.4rem;
+    background-color: rgba(13, 37, 63);
+    color: rgba(1, 180, 228);
+    margin-left: 1rem;
+}
+
+.Treding{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+.treding_card_container{
+    
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+.single_Card{
+    margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: 1px solid red; */
+   width: 25%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   transition: 0.1s;
+   height: 400px;
+}
+.single_Card:hover{
+    transform: scale(1.1);
+}
+.movie_poster{
+    margin-top: 0.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.movieImg{
+    width: 100%;
+}
+.movei_p{
+    text-align: center;
+}
+.movie_name {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    
+}
+
+.details{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.Details_images2{
+    
+    height: 500px;
+    border-radius: 20px;
+    margin: 2rem 2rem;
+    margin-top: 2rem;
+}
+
+.movie_Charector{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.movie_Charector h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 20rem ;
+    margin-left: -1rem;
+    /* margin-top: 10rem; */
+}
+.movie_Charector p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.movie_CharectorImg{
+    height: 250px;
+    width: 30%;
+    border-radius: 10px;
+}
+.main_credits_Card{
+    
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    height:350px;
+}
+
+.main_credits_Card_Imgs{
+    width: 113%;
+    height: 240px;
+    border-radius: 19px;
+}
+
+.mainCharector{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.creadits_name{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 102%;
+    margin-top: 5rem;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.story{
+    float: right;
+    width: 70%;
+    margin-top: 2rem;
+}
+.story_Line_heading{
+    font-size: 2.3rem;
+}
+.story_para, p{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif; 
+    padding: 1rem 0.5rem;
+}
+.more_move_Section{
+    margin-top: 12rem;
+    
+}
+.Movie_Card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.recome{
+    width: 200px;
+    height: 400px;
+}
